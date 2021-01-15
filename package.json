@@ -1,0 +1,13 @@
+{
+  "name": "dumbass-bot",
+  "version": "0.0.0",
+  "description": "dumbass",
+  "main": "app.js",
+  "author": {
+    "name": "Impulse"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "readline-sync": "^1.4.10"
+  }
+}
