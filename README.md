@@ -10,3 +10,4 @@ It's pretty dang old, pretty basic, and it uses an older version of Discord.js. 
 ## Videos used:
  - "Carriage Utility Mechanism" and "No you can not dumbass" from https://www.youtube.com/watch?v=A_BlNA7bBxo
  - "Demonitized" from https://www.youtube.com/watch?v=Q8QlNuTUe4M
+ - "Nightmare" from https://www.youtube.com/watch?v=KPQcy0dylrM
