@@ -27,6 +27,8 @@ client.on('message', message => {
 		message.channel.send("Carriage Utility Mechanism", { files: ["videos/cum.mp4"] });
 	} else if (message.content.toLowerCase().includes(`facial detection`)) {
 		message.channel.send("Nah, I prefer Racial Detection.", { files: ["videos/demonetized.mp4"] });
+	} else if (message.content.toLowerCase().includes(`nightmare`)) {
+		message.channel.send("https://youtu.be/-QyNm80lfTI");
 	} else if (message.content.toLowerCase().startsWith(`when will impulse be done with his schoolwork`)) {
 		message.channel.send("At the last fucking minute because he wastes his goddamn time.")
     }
