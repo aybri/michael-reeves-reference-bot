@@ -7,7 +7,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const { token } = require('./config.json');
+const { token, botID } = require('./config.json');
 
 client.once('ready', () => {
 	console.log('cum');
@@ -15,6 +15,8 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
+	if (message.author.id === botID) return;
+	
 	if (message.guild === null) {
 		console.log(`[DM][${message.author.username}]: ${message.content}`);
 	} else {
