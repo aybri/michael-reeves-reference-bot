@@ -16,14 +16,14 @@ client.once('ready', () => {
 
 client.on('message', message => {
 	if (message.author.id === botID) return;
-	
+	6
 	if (message.guild === null) {
 		console.log(`[DM][${message.author.username}]: ${message.content}`);
 	} else {
 		console.log(`[${message.guild}][#${message.channel.name}][${message.author.username}]: ${message.content}`);
 	}
 
-	if (message.content.toLowerCase().startsWith(`i could`) || message.content.toLowerCase().startsWith(`i can`)) {
+	if (message.content.toLowerCase().includes(`i could`) || message.content.toLowerCase().includes(`i can`) || message.content.toLowerCase().includes(`i would`)) {
 		message.channel.send("", { files: ["videos/dumbass.mp4"] });
 	} else if (message.content.toLowerCase().includes(`cum`)) {
 		message.channel.send("Carriage Utility Mechanism", { files: ["videos/cum.mp4"] });
