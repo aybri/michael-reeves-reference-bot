@@ -1,5 +1,6 @@
 # Michael Reeves Reference Bot
 The title is, uh, self explanatory.
+Specifically uses discord.js <ins>v12</ins>, NOT v13.
 
 Now officially receiving updates again. __RUN.__
 
