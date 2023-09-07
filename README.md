@@ -2,7 +2,7 @@
 The title is, uh, self explanatory.
 Specifically uses discord.js <ins>v12</ins>, NOT v13.
 
-Now officially receiving updates again. __RUN.__
+Now officially being laid to rest. You will be missed.
 
 This is a fairly old Discord bot I made a while back. Whenever you say a specific thing in chat, the bot will instantly respond with a clip from one of Michael Reeves' videos that the phrase is from.
 
